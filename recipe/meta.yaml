@@ -1,5 +1,5 @@
 {% set name = "writer-sdk" %}
-{% set version = "2.3.2" %}
+{% set version = "2.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/writer_sdk-{{ version }}.tar.gz
-  sha256: 3a0c8ebecdc1cd90c3aeca99bc9594911218a70cf7bcb31815ae4a15c236ecd6
+  sha256: 08af6f24fd8b1d2e664bb3cd4d92b53ec02479f592f51a610d36d65dead30d53
 
 build:
   noarch: python
