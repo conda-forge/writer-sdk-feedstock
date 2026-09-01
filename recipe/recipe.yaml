@@ -19,7 +19,7 @@ build:
 
 requirements:
   host:
-    - python ${{ python_min }}
+    - python ${{ python_min }}.*
     - hatchling ==1.26.3
     - hatch-fancy-pypi-readme
     - pip
